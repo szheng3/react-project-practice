@@ -1,12 +1,12 @@
+
 .app {
-  background: white;
 
   .brand {
     position: absolute;
     $size: 40px;
     top: 5px;
     left: 5px;
-    display: inline-block;
+    //display: inline-block;
     background: #2d2d2d url('../Home/logo.png') no-repeat center center;
     width: $size;
     height: $size;
@@ -21,4 +21,10 @@
 }
 .appContent {
   margin: 50px 0; // for fixed navbar
+}
+
+.navColor {
+  background: white;
+  border-color: white;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1);
 }
